@@ -1,4 +1,4 @@
-FROM nodejs:lts-alpine
+FROM node:lts-alpine
 
 RUN apk add --update --no-cache bash tzdata curl && \
     npm i -g pnpm && \
